@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"tests_monad","order":8,"path":"scripts/tests_monad/tests_monad.yy",},
+    {"name":"prelude_gml_ex","order":3,"path":"scripts/prelude_gml_ex/prelude_gml_ex.yy",},
+    {"name":"tests_iterators","order":5,"path":"scripts/tests_iterators/tests_iterators.yy",},
+    {"name":"prelude_monad","order":4,"path":"scripts/prelude_monad/prelude_monad.yy",},
+    {"name":"_tests_arrays","order":6,"path":"scripts/_tests_arrays/_tests_arrays.yy",},
+    {"name":"tests_curry","order":2,"path":"scripts/tests_curry/tests_curry.yy",},
+    {"name":"assertions","order":3,"path":"scripts/assertions/assertions.yy",},
+    {"name":"tests_function_pointers","order":4,"path":"scripts/tests_function_pointers/tests_function_pointers.yy",},
+    {"name":"prelude_higher_order","order":1,"path":"scripts/prelude_higher_order/prelude_higher_order.yy",},
+    {"name":"tests_structs","order":7,"path":"scripts/tests_structs/tests_structs.yy",},
+  ],
+}

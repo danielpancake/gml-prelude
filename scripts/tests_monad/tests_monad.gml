@@ -12,9 +12,9 @@ assert_eq(undefined, bind(undefined, f));
 
 // tests apply
 mf = [
-	function(_x) { return ord(_x) },
-	function(_x) { return _x + _x },
-	function(_x) { return _x + "izard" }
+  function(_x) { return ord(_x) },
+  function(_x) { return _x + _x },
+  function(_x) { return _x + "izard" }
 ];
 assert_eq([65, 66, 67, "AA", "BB", "CC", "Aizard", "Bizard", "Cizard"], apply(mf, ["A", "B", "C"]));
 
@@ -27,7 +27,7 @@ assert_eq([4, 4, 4, undefined, 4], apply(mf, [1, 1, 1, undefined, 1]));
 
 // more tests lifted function
 f = function(_a, _b) {
-	return _a + _b;
+  return _a + _b;
 }
 mf = curry(f);
 assert_eq(6, apply(apply(mf, 2), 4));

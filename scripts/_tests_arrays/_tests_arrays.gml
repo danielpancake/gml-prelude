@@ -28,26 +28,26 @@ assert_eq(["Bizard", "Cizard"], result);
 // tests foreach
 array = [1, 2, 3];
 array_foreach(array, function(_x) {
-	static i = 0;
-	i += 1;
-	switch (i) {
-	case 1:
-		assert_eq(1, _x);
-		break;
-	case 2:
-		assert_eq(2, _x);
-		break;
-	case 3:
-		assert_eq(3, _x);
-		break;
-	}
+  static i = 0;
+  i += 1;
+  switch (i) {
+  case 1:
+    assert_eq(1, _x);
+    break;
+  case 2:
+    assert_eq(2, _x);
+    break;
+  case 3:
+    assert_eq(3, _x);
+    break;
+  }
 });
 
 // tests folding
 array = ["alpha", "beta", "gamma"];
 var y0 = "fishward";
 var f = function(_xs, _x) {
-	return _xs + "-" + _x;
+  return _xs + "-" + _x;
 }
 assert_eq("fishward-alpha-beta-gamma", array_foldl(array, y0, f));
 assert_eq("alpha-beta-gamma-fishward", array_foldr(array, y0, f));

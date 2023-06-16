@@ -15,11 +15,11 @@ assert_eq(undefined, iter.next());
 
 // tests struct iterators
 iter = new Iterator({
-	pos : 0,
-	__next__ : function() {
-		pos += 1;
-		return pos;
-	}
+  pos : 0,
+  __next__ : function() {
+    pos += 1;
+    return pos;
+  }
 });
 iter.drop(4);
 iter.take(4);
@@ -43,7 +43,7 @@ array = ["A", "B", "C"];
 iter = new Iterator(array);
 ds = iter.collect(ds_type_list);
 for (var i = 0; i < array_length(array); i += 1) {
-	assert_eq(array[i], ds[| i]);
+  assert_eq(array[i], ds[| i]);
 }
 ds_list_destroy(ds);
 
@@ -64,19 +64,19 @@ ds_stack_destroy(ds);
 // tests forEach
 iter = new Iterator(["A", "B", "C"]);
 iter.forEach(function(_x) {
-	static i = 0;
-	switch (i) {
-	case 0:
-		assert_eq("A", _x);
-		break;
-	case 1:
-		assert_eq("B", _x);
-		break;
-	case 2:
-		assert_eq("C", _x);
-		break;
-	}
-	i += 1;
+  static i = 0;
+  switch (i) {
+  case 0:
+    assert_eq("A", _x);
+    break;
+  case 1:
+    assert_eq("B", _x);
+    break;
+  case 2:
+    assert_eq("C", _x);
+    break;
+  }
+  i += 1;
 });
 
 // tests toString
