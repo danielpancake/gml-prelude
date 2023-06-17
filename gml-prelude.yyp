@@ -22,6 +22,7 @@
     "IDEVersion": "2023.4.0.84",
   },
   "resources": [
+    {"id":{"name":"prelude_higher_order","path":"scripts/prelude_higher_order/prelude_higher_order.yy",},},
     {"id":{"name":"tests_monad","path":"scripts/tests_monad/tests_monad.yy",},},
     {"id":{"name":"prelude_gml_ex","path":"scripts/prelude_gml_ex/prelude_gml_ex.yy",},},
     {"id":{"name":"tests_iterators","path":"scripts/tests_iterators/tests_iterators.yy",},},
@@ -31,7 +32,6 @@
     {"id":{"name":"prelude_iterator","path":"scripts/prelude_iterator/prelude_iterator.yy",},},
     {"id":{"name":"assertions","path":"scripts/assertions/assertions.yy",},},
     {"id":{"name":"tests_function_pointers","path":"scripts/tests_function_pointers/tests_function_pointers.yy",},},
-    {"id":{"name":"prelude_higher_order","path":"scripts/prelude_higher_order/prelude_higher_order.yy",},},
     {"id":{"name":"tests_structs","path":"scripts/tests_structs/tests_structs.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
